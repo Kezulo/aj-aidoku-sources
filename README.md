@@ -8,11 +8,13 @@ A personal Aidoku source list containing:
 
 ## Add the list to Aidoku
 
-After this repository is published publicly on GitHub, add this URL in Aidoku under **Settings → Source Lists**:
+Add this URL in Aidoku under **Settings → Source Lists**:
 
 ```text
-https://raw.githubusercontent.com/YOUR-GITHUB-USERNAME/aj-aidoku-sources/main/public/index.min.json
+https://raw.githubusercontent.com/Kezulo/aj-aidoku-sources/main/public/index.min.json
 ```
+
+Or use the [one-tap Add Repository link](https://aidoku.app/add-source-list/?url=https%3A%2F%2Fraw.githubusercontent.com%2FKezulo%2Faj-aidoku-sources%2Fmain%2Fpublic%2Findex.min.json) on a device with Aidoku installed.
 
 Then install the sources from **AJ's Sources**. Aidoku will use this same list to find future version updates.
 
