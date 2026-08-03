@@ -2,6 +2,19 @@
   "name": "AJ's Sources",
   "sources": [
     {
+      "id": "en.ajtoonily",
+      "name": "Toonily (AJ)",
+      "version": 1,
+      "iconURL": "icons/en.ajtoonily-v1.png",
+      "downloadURL": "sources/en.ajtoonily-v1.aix",
+      "languages": [
+        "en"
+      ],
+      "contentRating": 2,
+      "baseURL": "https://toonily.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
       "id": "en.comicland",
       "name": "ComicLand",
       "version": 1,
