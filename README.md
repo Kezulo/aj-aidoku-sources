@@ -5,6 +5,7 @@ A personal Aidoku source list containing:
 - ComicLand
 - MangaDistrict
 - ManhwaRead
+- Toonily (AJ)
 
 ## Add the list to Aidoku
 
