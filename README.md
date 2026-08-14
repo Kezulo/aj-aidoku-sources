@@ -4,7 +4,10 @@ A personal Aidoku source list containing:
 
 - ComicLand
 - MangaDistrict
+- MangaTX (AJ)
 - ManhwaRead
+- MyReadingComic (AJ)
+- ToonGod (AJ)
 - Toonily (AJ)
 
 ## Add the list to Aidoku
@@ -29,6 +32,16 @@ Then install the sources from **AJ's Sources**. Aidoku will use this same list t
 6. Commit and push the updated files.
 
 The source ID must stay the same. Its version must increase each time, or Aidoku will not offer the update.
+
+## Keeping sources reliable
+
+- Prefer a site's JSON API when one exists; HTML layouts change more often.
+- Keep selectors in one parser module and accept harmless layout variations.
+- Add fixture tests for search, details, chapters, and reader pages.
+- Keep one ignored live smoke test per source and run it before publishing.
+- Test for non-empty valid results instead of hard-coding a chapter or page count.
+- Treat Cloudflare challenges and site outages as separate, explicit errors.
+- Keep source IDs stable, bump versions only for user-facing source changes, and let CI verify every package before publishing.
 
 ## Disclaimer
 

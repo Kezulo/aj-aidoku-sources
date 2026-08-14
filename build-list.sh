@@ -9,7 +9,10 @@ aidoku build \
 	--output "$repo_dir/public" \
 	"$repo_dir/packages/ComicLand.aix" \
 	"$repo_dir/packages/MangaDistrict.aix" \
+	"$repo_dir/packages/MangaTX.aix" \
 	"$repo_dir/packages/ManhwaRead.aix" \
+	"$repo_dir/packages/MyReadingComic.aix" \
+	"$repo_dir/packages/ToonGod.aix" \
 	"$repo_dir/packages/Toonily.aix"
 
 echo "AJ's Sources list rebuilt in $repo_dir/public"
