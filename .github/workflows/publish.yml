@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "packages/**"
+      - "build-list.sh"
       - ".github/workflows/publish.yml"
   workflow_dispatch:
 
@@ -25,8 +26,11 @@ jobs:
       - name: Install Aidoku CLI
         run: cargo install --git https://github.com/Aidoku/aidoku-rs aidoku-cli
 
+      - name: Verify source packages
+        run: aidoku verify packages/*.aix
+
       - name: Build source list
-        run: aidoku build packages/*.aix --name "AJ's Sources"
+        run: sh build-list.sh
 
       - name: Publish to GitHub Pages branch
         uses: JamesIves/github-pages-deploy-action@v4.7.2
