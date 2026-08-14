@@ -2,11 +2,50 @@
   "name": "AJ's Sources",
   "sources": [
     {
+      "id": "en.ajmangatx",
+      "name": "MangaTX (AJ)",
+      "version": 1,
+      "iconURL": "icons/en.ajmangatx-v1.png",
+      "downloadURL": "sources/en.ajmangatx-v1.aix",
+      "languages": [
+        "en"
+      ],
+      "contentRating": 2,
+      "baseURL": "https://mangatx.cc",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "en.ajmyreadingcomic",
+      "name": "MyReadingComic (AJ)",
+      "version": 1,
+      "iconURL": "icons/en.ajmyreadingcomic-v1.png",
+      "downloadURL": "sources/en.ajmyreadingcomic-v1.aix",
+      "languages": [
+        "en"
+      ],
+      "contentRating": 2,
+      "baseURL": "https://myreadingcomic.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "en.ajtoongod",
+      "name": "ToonGod (AJ)",
+      "version": 3,
+      "iconURL": "icons/en.ajtoongod-v3.png",
+      "downloadURL": "sources/en.ajtoongod-v3.aix",
+      "languages": [
+        "en"
+      ],
+      "contentRating": 2,
+      "baseURL": "https://toongod.cc",
+      "minAppVersion": "0.7.1"
+    },
+    {
       "id": "en.ajtoonily",
       "name": "Toonily (AJ)",
-      "version": 1,
-      "iconURL": "icons/en.ajtoonily-v1.png",
-      "downloadURL": "sources/en.ajtoonily-v1.aix",
+      "version": 2,
+      "iconURL": "icons/en.ajtoonily-v2.png",
+      "downloadURL": "sources/en.ajtoonily-v2.aix",
       "languages": [
         "en"
       ],
@@ -43,9 +82,9 @@
     {
       "id": "en.manhwaread",
       "name": "ManhwaRead",
-      "version": 2,
-      "iconURL": "icons/en.manhwaread-v2.png",
-      "downloadURL": "sources/en.manhwaread-v2.aix",
+      "version": 3,
+      "iconURL": "icons/en.manhwaread-v3.png",
+      "downloadURL": "sources/en.manhwaread-v3.aix",
       "languages": [
         "en"
       ],
